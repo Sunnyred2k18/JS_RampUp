@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  #myDropdown {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #removeBtn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #removeBtn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #dropdownLength {
+    font-weight: bold;
+  }
+  
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    
+  }
+  
+  .container2 p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #removedList li {
+    color: #FF0000;
+  }
+  
+  #existingList li {
+    color: #0000FF;
+  }
+  

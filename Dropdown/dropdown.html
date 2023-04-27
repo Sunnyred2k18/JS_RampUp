@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdown Options</title>
+	<link rel="stylesheet" type="text/css" href="dropdown.css">
+</head>
+<body>
+	<div class = container>
+        <select id="myDropdown">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="React">React</option>
+          <option value="Java">Java</option>
+          <option value="SAP">SAP</option>
+        </select>
+        <button id="removeBtn">Remove</button>
+        <p>Current dropdown items length: <span id="dropdownLength"></span></p>
+      </div>
+
+      <div class = container2>
+        <p>Removed options:</p>
+        <ul id="removedList"></ul>
+        <p>Existing options:</p>
+        <ul id="existingList"></ul>
+      </div>
+      
+	<script src="drop_down.js"></script>
+</body>
+</html>
